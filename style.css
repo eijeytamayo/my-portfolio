@@ -1,0 +1,95 @@
+/*Default*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+/*modified*/
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#mainHeader { 
+  background: white;
+}
+
+.my-logo {
+  margin: 50px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+.logo-facebook,
+.logo-instagram,
+.logo-github {
+  position: absolute;
+}
+
+.logo-facebook {
+  top: 20px;
+  right: 350px;;
+}
+
+.logo-instagram {
+  top: 20px;
+  right: 300px;
+}
+
+.logo-github {
+  top: 20px;
+  right:250px;
+}
+
+#my-title {
+  background-position: center center;
+  min-height: 200px;
+  text-align: center;
+  color: #141c3a;
+}
+
+#my-title h1 {
+  font-size: 2.5rem;
+  padding-top: 30px;
+  line-height: 1.6em;
+}
+
+#my-title {
+  font-size: 1.5rem;
+}
+
+.avatar img{
+  margin-top: 100px;
+  width: 200px;
+  margin-bottom: 0px;;
+}
+
+.logo { 
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+div.about-me {
+  color: white;
+  background: #373737;
+  margin: 0;
+  padding: 50px;
+  font-size: 1.5rem;
+}
+
+div.about-me p {
+  padding: 40px 400px;;
+  font-size: 1.3rem;
+}
